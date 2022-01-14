@@ -25,7 +25,7 @@
       rel="stylesheet"
     />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="styles.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body id="page-top">
     <!-- Navigation-->
@@ -50,7 +50,7 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" id="projects">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" id="contact">Contact</a>
@@ -66,7 +66,7 @@
       >
         <div class="d-flex justify-content-center">
           <div class="text-center">
-            <h1 class="mx-auto my-0 text-uppercase">Hi, I'm Stacy.</h1>
+            <h1 class="mx-auto my-0 text-uppercase">Hi! I'm Stacy.</h1>
             <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
             <a class="btn btn-primary" href="#about">About me</a>
           </div>
@@ -87,87 +87,38 @@
             </p>
           </div>
         </div>
-        <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
       </div>
     </section>
     <!-- Projects-->
-    <section class="projects-section bg-light" id="projects">
-      <div class="container px-4 px-lg-5">
-        <!-- Featured Project Row-->
-        <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-          <div class="col-xl-8 col-lg-7">
-            <img
-              class="img-fluid mb-3 mb-lg-0"
-              src="assets/img/bg-masthead.jpg"
-              alt="..."
-            />
-          </div>
-          <div class="col-xl-4 col-lg-5">
-            <div class="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
-              <p class="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
-              </p>
-            </div>
-          </div>
-        </div>
-        <!-- Project One Row-->
-        <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-          <div class="col-lg-6">
-            <img
-              class="img-fluid"
-              src="assets/img/demo-image-01.jpg"
-              alt="..."
-            />
-          </div>
-          <div class="col-lg-6">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-left"
-                >
-                  <h4 class="text-white">Misty</h4>
-                  <p class="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 ms-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Project Two Row-->
-        <div class="row gx-0 justify-content-center">
-          <div class="col-lg-6">
-            <img
-              class="img-fluid"
-              src="assets/img/demo-image-02.jpg"
-              alt="..."
-            />
-          </div>
-          <div class="col-lg-6 order-lg-first">
-            <div class="bg-black text-center h-100 project">
-              <div class="d-flex h-100">
-                <div
-                  class="project-text w-100 my-auto text-center text-lg-right"
-                >
-                  <h4 class="text-white">Mountains</h4>
-                  <p class="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
-                  </p>
-                  <hr class="d-none d-lg-block mb-0 me-0" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <div class="container--1" id="projSec">
+      <div class="intro">
+        <p class="headProj">My Projects</p>
       </div>
-    </section>
+      <div class="p1">
+        <p class="projName">Tree Climber</p>
+        <p class="desc">Game (Python)</p>
+      </div>
+      <div class="p2">
+        <p class="projName">Meme Maker</p>
+        <p class="desc">Image and caption generator (Java)</p>
+      </div>
+      <div class="p3">
+        <p class="projName">Sample HTML Website</p>
+        <p class="desc">
+          Basic website showing HTML and CSS formatting abilities, done through
+          Udemy course: Build Responsive Real-World Websites with HTML and CSS
+          by Jonas Schmedtmann (HTML and CSS)
+        </p>
+      </div>
+      <div class="p4">
+        <p class="projName">Number Guessing Game</p>
+        <p class="desc">
+          Implemented JavaScript functionalities to game, HTML and CSS provided
+          by Udemy course: The Complete JavaScript Course 2022: From Zero to
+          Expert! by Jonas Schmedtmann (JavaScript)
+        </p>
+      </div>
+    </div>
     <!-- Signup-->
     <!-- <section class="signup-section" id="signup">
       <div class="container px-4 px-lg-5">
@@ -302,7 +253,7 @@
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
-    <script src="scripts.js"></script>
+    <script src="js/scripts.js"></script>
     <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <!-- * *                               SB Forms JS                               * *-->
     <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->

@@ -51,6 +51,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
 });
 
 //Scroll in Navigation Bar
+document.querySelector("#projects").addEventListener("click", function () {
+  projSec.scrollIntoView({ behavior: "smooth" });
+});
+
 document.querySelector("#contact").addEventListener("click", function () {
   contactsSec.scrollIntoView({ behavior: "smooth" });
 });

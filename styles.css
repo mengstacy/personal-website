@@ -394,7 +394,8 @@ select {
   text-transform: none;
 }
 
-#contact:hover {
+#contact,
+#projects:hover {
   cursor: pointer;
 }
 
@@ -12147,6 +12148,44 @@ body {
 }
 .contact-section .social a:active {
   color: #fff;
+}
+
+.container--1 {
+  /* STARTER */
+  font-family: sans-serif;
+  background-color: #ddd;
+  font-size: 30px;
+  margin: 40px;
+
+  /* CSS GRID */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+
+  /* gap: 30px; */
+  column-gap: 20px;
+  row-gap: 40px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.intro {
+  background-color: #888888;
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+  border: solid 1px #000;
+}
+
+.desc {
+  font-size: 20px;
+}
+
+.intro {
+  grid-column: 1 /-1;
 }
 
 .footer {
