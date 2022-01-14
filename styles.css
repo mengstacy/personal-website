@@ -12189,6 +12189,15 @@ body {
   padding-top: 8px;
 }
 
+.button {
+  background-color: #64a19d;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 25px;
+}
+
 .footer {
   padding: 5rem 0;
 }
